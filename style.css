@@ -1,0 +1,203 @@
+*{
+    margin: 0%;
+    
+    /* font-family: 'Itim', cursive; */
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Cinzel', serif; */
+/* font-family: 'Montserrat', sans-serif; */
+}
+
+body{
+    background-color: #e8d2b3;
+     flex-direction: column;
+     color: #100004 solid;
+     font-size: 1.2rem;
+}
+p{
+    color: black solid;
+}
+.container{
+    text-align: center;
+    background-color: rgb(146, 200, 178);
+    color: #04201e solid;
+    padding: 2rem;
+    margin: 0px auto;
+    
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    position: relative;
+    transition: 1s;
+    
+    /* display: flex; */  
+}
+/* when the font is changed the mountain  and cloud1 position changes
+because due to relative positioning it has it is placed in the flow to the html
+needs slight left,right or top positioning  
+ */
+h2{
+    font-family: 'Cinzel', serif;
+    /* font-size: 1.8rem; */
+}
+.limg{
+    /* width: 20rem;
+    height: 20rem; */
+    width: 20%;
+    height: 10%;
+/* note if it is mentioned in percent then it is responsive    */
+  
+    position: relative;
+/* this is kept relative bcz position is perfect to the container  */
+    top: 2rem;
+    margin: auto;
+    right: 8%;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+ 
+}
+
+.topimg{
+    width: 12%;
+    height: 12%;
+    position: relative;
+    /* this is kept relative bcz position is perfect to the container only needs some left positioning */
+    left: 25%;
+    
+   
+    opacity: 80%;
+    /* background-color: antiquewhite; */
+    color: rgb(25, 15, 67);
+}
+
+.btmimg{
+    width: 12%;
+    height: 1%;
+    position: relative;
+    /* this is kept relative bcz position is perfect to the container only needs some bottom,right positioning */
+    z-index: 1px;
+    bottom: 7rem;
+    right: 20%;
+    opacity: 80%;
+    color: antiquewhite;
+}
+.middle-container{
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0);
+    /* padding: 2.0rem; */
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+}
+.bottom-container{
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0);
+    padding: 2.0rem;
+    margin-top: 5rem;
+}
+/* .skills{
+    display: flex;
+    flex-direction: row;
+    
+} */
+.profile{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(28, 28, 26, 0);
+    line-height: 2;
+    padding: 0.5rem;
+    text-align: center;
+    
+}
+.profileimg{
+    width: 25%;
+    float: top;
+    margin: auto;
+    border-radius: 50rem;
+}
+.skills{
+    margin: 3rem auto 3rem auto;
+    padding: .8rem;
+}
+.skill-row1{
+    width: 50%;
+    background-color: rgba(28, 28, 26, 0);
+    margin: auto;
+    padding: 1rem;
+    padding-top: 1rem;
+    text-align: left;
+    line-height: 2;
+    /* float: left; */
+}
+.skill-row2{
+    width: 50%;
+    background-color: rgba(28, 28, 26, 0);
+    margin: auto;
+    padding-top: 2rem;
+    padding: .5rem;
+    text-align: left;
+    line-height: 2;
+    /* float: left; */
+}
+.skill1{
+    width: 11rem;
+    height: 11rem;
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+.skill2{
+    width: 11rem;
+    height: 11rem;
+    float: right;
+    z-index: -1;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.contact-me{
+    width: 50%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0.5rem;
+    line-height: 2;
+}
+/* float makes the img/words flot to desired direction
+clear makes the img/word clear the direction */
+hr{
+    width: 4em;
+    border-style: dotted none none none;
+    border-width: .3em;
+    border-color: rgb(7, 49, 60);
+    margin: 2em auto auto auto;
+}
+.btn{
+    width: 100px;
+    height: 95px;
+    text-decoration: none;
+    border-radius: 200px;
+    padding: 15px;
+    color: #000000cf ;
+    background-color: rgb(146, 200, 178) ;
+    transition: 1ms;
+    margin: auto;
+}
+.btn:hover{
+    color: beige;
+  
+}
+.bottom-container{
+    background-color: rgb(146, 200, 178) ;
+    color: #04201e ;
+    padding: 2rem;
+    margin: auto;
+    line-height: 2;
+}
+.fotter-link{
+  
+    margin: 2rem 2rem 3rem 2rem;
+    text-decoration: none;
+    color: #04201e ;
+}
+.fotter-link:hover{
+    color: beige;
+}
